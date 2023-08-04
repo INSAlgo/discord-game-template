@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
 
 from __future__ import annotations
-from io import StringIO
-import sys
 from abc import ABC, abstractmethod
-from typing import Any, Callable
-import os
-import asyncio
-import argparse
-import re
+from typing import Callable, Any
+from io import StringIO
 from pathlib import Path
+import argparse, asyncio, os, re, sys
 
 # You can add game constants here, like a board size for example
 
